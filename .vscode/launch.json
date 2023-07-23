@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-NeuralnetsimApplication<neuralnetsim>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neuralsim.neuralnetsim.NeuralnetsimApplication",
+            "projectName": "neuralnetsim",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

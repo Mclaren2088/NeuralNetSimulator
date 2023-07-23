@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <canvas id="neuralCanvas" style="border-style:solid;">
+
+        </canvas>
+    </body>
+</html>
+
+<script>
+    var canvas = document.getElementById("neuralCanvas");
+    var ctx = canvas.getContext("2d");
+    canvas.width = 1000;
+    canvas.height = 1000;
+
+    ctx.beginPath();
+    ctx.arc(100, 100, 40, 0, 2*Math.PI);
+
+    ctx.lineTo(260, 100);
+    ctx.moveTo(340, 100);
+    ctx.arc(300, 100, 40, 0, 2*Math.PI);
+
+    ctx.moveTo(300, 140);
+    ctx.lineTo(300, 160);
+    ctx.moveTo(340, 200);
+    ctx.arc(300, 200, 40, 0, 2*Math.PI);
+    ctx.stroke();
+</script>
